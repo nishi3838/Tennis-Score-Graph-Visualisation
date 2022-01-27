@@ -53,10 +53,6 @@ colourlist = [3]
 
 
 
-
-
-
-
 def point_information_scattering():
 
     # set the default colour to be black
@@ -64,12 +60,8 @@ def point_information_scattering():
     colourlist.append(int(colour_inp))       
     ax1.scatter(range(len(ys)),ys, c=colourmap[colourlist])
 
-
-
 textlist = ['']
-
-
-        
+ 
 
 style.use('fivethirtyeight')
 fig = plt.figure()
